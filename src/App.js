@@ -48,7 +48,7 @@ function App() {
   };
 
   // Excel Download Function
-   const downloadExcel = () => {
+const downloadExcel = () => {
 
   if (students.length === 0) {
     alert("No students to download");
